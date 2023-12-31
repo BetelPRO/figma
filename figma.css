@@ -1,0 +1,140 @@
+body {
+    width: 1280px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.pesquisar {
+    cursor: text;
+}
+
+.sub:hover {
+    cursor: pointer;
+}
+
+.select_genero div:hover {
+    cursor: pointer;
+    border: 1px solid rgb(255, 208, 0);
+}
+
+.titulo_maisAcessados {
+    left: 80px;
+    top: 20%;
+}
+.maisAcessados {
+    left: 80px;
+    bottom: 20%;
+}
+
+.lugar_maisAcessados {
+    color: rgb(105, 104, 104);
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.467);
+    -webkit-text-stroke-width: 1px;
+}
+
+.caixa_maisAcessados {
+    background-color: white;
+    border: 1px solid rgba(89, 87, 87, 0.256);
+    color: black;
+}
+
+.caixa_maisAcessados:hover {
+    background-color: rgb(207, 202, 202);
+    border: 1px solid rgba(255, 216, 42, 0.716);
+    cursor: pointer;
+}
+
+.caixa_maisAcessados:hover .lugar_maisAcessados {
+    color: rgba(255, 255, 255, 0.775);
+    
+    -webkit-text-stroke-color: rgba(255, 208, 0, 0.716);
+    -webkit-text-stroke-width: 1px;
+}
+
+#image {
+    background-image: url("imagens/IMG_0465.jpg");
+    background-size: 1280px;
+    background-position-y: 38%;
+    background-position-x: 50%;
+    transition: ease-in 1s;
+}
+
+#image:hover {
+    background-image: url("imagens/IMG_0465.jpg");
+    background-size: 1380px;
+    background-position-x: 50%;
+    background-position-y: 38%;
+}
+
+#image_1 {
+    background-image: url("imagens/IMG_0472.jpg");
+    background-size: 305px;
+    background-position-y: 17%;
+    background-position-x: 50%;
+    transition: 1s;
+}
+
+#image_1:hover {
+    cursor: pointer;
+    background-image: url('imagens/IMG_0472.jpg');
+    background-position-y: 17%;
+    background-image: 50%;
+    background-size: 320px;
+}
+
+#image_2 {
+    background-image: url('imagens/IMG_0477.jpg');
+    background-size: 305px;
+    background-position-y: 12%;
+    background-position-x: 50%;
+    transition: 1s;
+}
+
+
+#image_2:hover {
+    background-image: url('imagens/IMG_0477.jpg');
+    background-size: 330px;
+    background-position-y: 14%;
+    background-position-x: 50%;
+    cursor: pointer;
+}
+
+#image_3 {
+    background-image: url("imagens/IMG_0549.jpg");
+    background-size: 305px;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    transition: 1s;
+}
+
+
+#image_3:hover {
+    background-image: url('imagens/IMG_0549.jpg');
+    background-size: 330px;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    cursor: pointer;
+}
+
+#image_4 {
+    background-image: url("imagens/IMG_0532.jpg");
+    background-size: 305px;
+    background-position-y: 11%;
+    background-position-x: 50%;
+    transition: 1s;
+}
+
+
+#image_4:hover {
+    background-image: url('imagens/IMG_0532.jpg');
+    background-size: 330px;
+    background-position-y: 12%;
+    background-position-x: 50%;
+    cursor: pointer;
+}
+
+@media (max-width:1280px) {
+    body {
+        margin-left: 0px;
+    }
+}
