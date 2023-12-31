@@ -26,6 +26,11 @@ body {
     bottom: 20%;
 }
 
+.quantidade_maisAcessados {
+    left: 80px;
+    bottom: 25%;
+}
+
 .lugar_maisAcessados {
     color: rgb(105, 104, 104);
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.467);
