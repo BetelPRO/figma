@@ -84,7 +84,17 @@ main {
     margin: 0;
 }
 
-.maisAcessados_mobile h2, .maisAcessados_mobile h6 {
+.maisAcessados_mobile h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.maisAcessados_mobile h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(103, 103, 103);
+}
+
+.maisAcessados_mobile h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     color: rgb(103, 103, 103);
@@ -132,10 +142,12 @@ footer {
 
 .footer_mobile img {
     width: 34px;
+    opacity: 50%;
 }
 
 .footer_mobile h3 {
     color: rgb(3, 3, 3);
+    opacity: 80%;
     margin: 0;
     font-size: 16px;
 }
