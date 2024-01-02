@@ -4,6 +4,20 @@ body {
     margin-left: 300px;
 }
 
+.topo {
+    width: 1270px;
+    height: 59px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#linha {
+    width: 1234px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .pesquisar {
     cursor: text;
 }
@@ -12,9 +26,20 @@ body {
     cursor: pointer;
 }
 
+.select_genero {
+    left: 27px;
+    top: 77px;
+}
+
 .select_genero div:hover {
     cursor: pointer;
     border: 1px solid rgb(255, 208, 0);
+}
+
+.imagens {
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%);
 }
 
 .titulo_maisAcessados {
@@ -50,10 +75,13 @@ body {
 }
 
 .caixa_maisAcessados:hover .lugar_maisAcessados {
-    color: rgba(255, 255, 255, 0.775);
-    
+    color: rgba(255, 255, 255, 0.775); 
     -webkit-text-stroke-color: rgba(255, 208, 0, 0.716);
     -webkit-text-stroke-width: 1px;
+}
+
+#login {
+    left: 1211px;
 }
 
 #image {
@@ -138,8 +166,65 @@ body {
     cursor: pointer;
 }
 
+#maisAcessados {
+    left: 50%;
+    top: 660px;
+    transform: translate(-50%);
+}
+
+.low {
+    left: 50%;
+    transform: translate(-50%);
+}
+
 @media (max-width:1280px) {
     body {
-        margin-left: 0px;
+        margin-left: 2px;
     }
+
+    .topo {
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .topo_right {
+        display: none;
+    }
+
+    #linha {
+        width: 98%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #login {
+        right: 0.5%;
+    }
+
+    .select_genero {
+        top: 77px;
+        left: 0.5%;
+    }
+
+    .imagens {
+        top: 150px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    #maisAcessados {
+        margin-left: 4px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .low {
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@media (max-width: 1000px) {
+
 }

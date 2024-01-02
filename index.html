@@ -8,7 +8,7 @@
 </head>
 <body>
     <div style="width: 100%; height: 100%; position: absolute; left: 50%; transform: translate(-50%); background: white">
-        <div style="width: 1270px; height: 59px; left: 16px; top: 7px; position: absolute">
+        <div class="topo">
             <label class="pesquisar" for="pesquisar" style="width: 414px; height: 47px; left: 112px; top: 0px; position: absolute; background: #ffffff; border-radius: 15px; border: 2px rgba(147.69, 144, 144, 0.90) solid">
                 <form style="left: 19px; top: 50%; transform: translate(0%,-50%); position: absolute">
                     <input id="pesquisar" style="outline: 0; background-color: #fcfcfc; border: none;" type="search">
@@ -20,16 +20,16 @@
                 <img style="width: 43px; height: 48px; left: 0px; top: -4px; position: absolute" src="—Pngtree—magnifying glass icon_4681976 1.png" />
             </label>
             <div>
-                <a href="" style="left: 871px; top: 14px; position: absolute;text-decoration: none; color: #040404; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Listas</a>
-                <a href="" style="left: 964px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Enviar Cifras</a>
-                <a href="" style="left: 1109px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Mais</a>
-                <a href="" style="left: 1211px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Entrar</a>
+                <a class="topo_right" href="" style="left: 871px; top: 14px; position: absolute;text-decoration: none; color: #040404; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Listas</a>
+                <a class="topo_right" href="" style="left: 964px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Enviar Cifras</a>
+                <a class="topo_right" href="" style="left: 1109px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Mais</a>
+                <a id="login" href="" style="top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Entrar</a>
             </div>
             <img style="width: 109px; height: 56px; left: 0px; top: 1px; position: absolute" src="Sem título 1.png" />
-            <div style="width: 1234px; height: 0px; left: 50%; bottom: 0px;transform: translate(-50%, 0%); position: absolute; border: 0.1px #b9b7b768 solid"></div>
+            <div id="linha" style="height: 0px; bottom: 0px; position: absolute; border: 0.1px #b9b7b768 solid"></div>
         </div>
         
-        <div class="select_genero" style="width: 508px; height: 32px; left: 27px; top: 77px; position: absolute">
+        <div class="select_genero" style="width: 508px; height: 32px; position: absolute">
             <div style="width: 74px; height: 32px; left: 0px; top: 0px; position: absolute; background: #0D0D0D; border-radius: 10px">
                 <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #fffefe; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Todos</a></div>
             <div style="width: 74px; height: 32px; left: 110px; top: 0px; position: absolute; background: white; border-radius: 10px">
@@ -41,7 +41,7 @@
             <div style="width: 74px; height: 32px; left: 326px; top: 0px; position: absolute; background: white; border-radius: 10px">
                 <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #010101; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Reggae</a></div>
         </div>
-        <div style="width: 1280px; height: 393px; left: 20px; top: 150px; position: absolute">
+        <div class="imagens" style="width: 1280px; height: 393px; position: absolute">
             <div id="image" style="width: 1280px; height: 276px; left: 0px; top: 0px; position: absolute; border-radius: 20px"></div>
             <div id="image_1" style="width: 305px; height: 100px; left: 0px; top: 293px; position: absolute; border-radius: 20px"></div>
             <div id="image_2" style="width: 305px; height: 100px; left: 325px; top: 293px; position: absolute; border-radius: 20px"></div>
@@ -52,7 +52,7 @@
             <div style="left: 0px; top: 1px;width: 300px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 600; word-wrap: break-word">Mais Acessados</div>
             <div style="left: 1061px; top: 0px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 600; word-wrap: break-word">Artitas</div>
         </div>
-        <div style="width: 1289px; height: 561px; left: 20px; top: 660px; position: absolute">
+        <div id="maisAcessados" style="width: 1289px; height: 561px; position: absolute">
             <div style="width: 305px; height: 560px; left: 0px; top: 1px; position: absolute; background: white"></div>
             <div style="width: 305px; height: 560px; left: 329px; top: 1px; position: absolute; background: white"></div>
             <div style="width: 305px; height: 560px; left: 650px; top: 0px; position: absolute; background: white"></div>
@@ -158,7 +158,7 @@
                 <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
             </div>
         </div>
-        <div style="width: 1280px; height: 53px; left: 20px; top: 1301px; position: absolute">
+        <div class="low" style="width: 1280px; height: 53px; top: 1301px; position: absolute">
             <div style="width: 1280px; height: 53px; left: 0px; top: 0px; position: absolute; background: black"></div>
             <div style="width: 967px; height: 24px; left: 250px; top: 15px; position: absolute">
                 <a href="" style="left: 0px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">A</a>
@@ -190,7 +190,7 @@
             </div>
             <div style="left: 63px; top: 15px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Todos Artistas</div>
         </div>
-        <div style="width: 1280.03px; height: 238.46px; left: 19.98px; top: 1353.54px; position: absolute">
+        <div class="low" style="width: 1280.03px; height: 238.46px; top: 1353.54px; position: absolute">
             <div style="width: 1280px; height: 238px; left: 0.02px; top: 0.46px; position: absolute; background: black"></div>
             
             <div style="left: 109.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Músicas</div>
