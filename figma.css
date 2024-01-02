@@ -90,6 +90,7 @@ body {
     background-position-y: 38%;
     background-position-x: 50%;
     transition: ease-in 1s;
+    cursor: pointer;
 }
 
 #image:hover {

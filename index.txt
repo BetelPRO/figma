@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma</title>
+    <link rel="stylesheet" href="figma.css">
+</head>
+<body>
+    <div style="width: 100%; height: 100%; position: absolute; left: 50%; transform: translate(-50%); background: white">
+        <div class="topo">
+            <label class="pesquisar" for="pesquisar" style="width: 414px; height: 47px; left: 112px; top: 0px; position: absolute; background: #ffffff; border-radius: 15px; border: 2px rgba(147.69, 144, 144, 0.90) solid">
+                <form style="left: 19px; top: 50%; transform: translate(0%,-50%); position: absolute">
+                    <input id="pesquisar" style="outline: 0; background-color: #fcfcfc; border: none;" type="search">
+                    <input id="sub" style="display: none;" type="submit">
+                </form>
+            </label>
+           
+            <label class="sub" for="sub" style="width: 47px; height: 37px; left: 475px; top: 5px; position: absolute; background: #161616; border-radius: 10px; border: 1px black solid">
+                <img style="width: 43px; height: 48px; left: 0px; top: -4px; position: absolute" src="—Pngtree—magnifying glass icon_4681976 1.png" />
+            </label>
+            <div>
+                <a class="topo_right" href="" style="left: 871px; top: 14px; position: absolute;text-decoration: none; color: #040404; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Listas</a>
+                <a class="topo_right" href="" style="left: 964px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Enviar Cifras</a>
+                <a class="topo_right" href="" style="left: 1109px; top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Mais</a>
+                <a id="login" href="" style="top: 14px; position: absolute;text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Entrar</a>
+            </div>
+            <img style="width: 109px; height: 56px; left: 0px; top: 1px; position: absolute" src="Sem título 1.png" />
+            <div id="linha" style="height: 0px; bottom: 0px; position: absolute; border: 0.1px #b9b7b768 solid"></div>
+        </div>
+        
+        <div class="select_genero" style="width: 508px; height: 32px; position: absolute">
+            <div style="width: 74px; height: 32px; left: 0px; top: 0px; position: absolute; background: #0D0D0D; border-radius: 10px">
+                <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #fffefe; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Todos</a></div>
+            <div style="width: 74px; height: 32px; left: 110px; top: 0px; position: absolute; background: white; border-radius: 10px">
+                <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #010101; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word"> Rock</a></div>
+            <div style="width: 74px; height: 32px; left: 217px; top: 0px; position: absolute; background: white; border-radius: 10px">
+                <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #010101; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Pop</a></div>
+            <div style="width: 74px; height: 32px; left: 434px; top: 0px; position: absolute; background: white; border-radius: 10px">
+                <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #010101; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Gospel</a></div>
+            <div style="width: 74px; height: 32px; left: 326px; top: 0px; position: absolute; background: white; border-radius: 10px">
+                <a href="" style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; color: #010101; text-decoration: none; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Reggae</a></div>
+        </div>
+        <div class="imagens" style="width: 1280px; height: 393px; position: absolute">
+            <div id="image" style="width: 1280px; height: 276px; left: 0px; top: 0px; position: absolute; border-radius: 20px"></div>
+            <div id="image_1" style="width: 305px; height: 100px; left: 0px; top: 293px; position: absolute; border-radius: 20px"></div>
+            <div id="image_2" style="width: 305px; height: 100px; left: 325px; top: 293px; position: absolute; border-radius: 20px"></div>
+            <div id="image_3" style="width: 305px; height: 100px; left: 650px; top: 292px; position: absolute; border-radius: 20px"></div>
+            <div id="image_4" style="width: 305px; height: 100px; left: 975px; top: 292px; position: absolute; border-radius: 20px"></div>
+        </div>
+        <div style="left: 27px; top: 606px; position: absolute">
+            <div style="left: 0px; top: 1px;width: 300px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 600; word-wrap: break-word">Mais Acessados</div>
+            <div style="left: 1061px; top: 0px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 600; word-wrap: break-word">Artitas</div>
+        </div>
+        <div id="maisAcessados" style="width: 1289px; height: 561px; top: 660px; position: absolute">
+            <div style="width: 305px; height: 560px; left: 0px; top: 1px; position: absolute; background: white"></div>
+            <div style="width: 305px; height: 560px; left: 329px; top: 1px; position: absolute; background: white"></div>
+            <div style="width: 305px; height: 560px; left: 650px; top: 0px; position: absolute; background: white"></div>
+            <div style="width: 305px; height: 560px; left: 974px; top: 0px; position: absolute; background: white"></div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 0px; top: 15px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">1</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Bondade de Deus</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Isaías Saad</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 329px; top: 15px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">6</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Me Atriu</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Gabriela Rocha</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 650px; top: 14px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">11</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Deserto</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Maria Marçal</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 974px; top: 14px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">1</div>
+                <div class="titulo_maisAcessados" style="width: 205px; position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Bruno e Marrone</div>
+                <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 0px; top: 123px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">2</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Boate Azul</div>
+                <div class="maisAcessados" style="position: absolute;font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Bruno e Marrone</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 329px; top: 123px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">7</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Noite Feliz</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Natal</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 650px; top: 122px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">12</div>
+                <div class="titulo_maisAcessados" style=" position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Vida Vazia</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Bruno e Marrone</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 974px; top: 122px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">2</div>
+                <div class="titulo_maisAcessados" style="width: 225px; position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Músicas Católicas</div>
+                <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 0px; top: 231px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">3</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Benção Que Não...</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Isadora Pompeo</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 329px; top: 231px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">8</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Tempo Perdido</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Legião Urbana</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 650px; top: 230px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">13</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Flor e o Beija-flor</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Henrique e Juliano</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 974px; top: 230px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">3</div>
+                <div class="titulo_maisAcessados" style="width: 226px;position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Harpa Cristã</div>
+                <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 0px; top: 339px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">4</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Evidências</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Chitãozinho e Xororó</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 329px; top: 339px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">9</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Porque Ele Vive</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Harpa Cristã</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 650px; top: 338px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">14</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Dormi na Praça</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Bruno e Marrone</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 974px; top: 338px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">4</div>
+                <div class="titulo_maisAcessados" style="width: 217px; position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Legião Urbana</div>
+                <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 0px; top: 447px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">5</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Isaías 9</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Rodolfo Abrantes</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 329px; top: 447px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">10</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Jeova Jireh</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Aline Barros</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 650px; top: 446px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 10px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">15</div>
+                <div class="titulo_maisAcessados" style="position: absolute; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">Borboletas</div>
+                <div class="maisAcessados" style="position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Vitor e Léo</div>
+            </div>
+            <div class="caixa_maisAcessados" style="width: 305px; height: 100px; left: 974px; top: 446px; position: absolute; border-radius: 20px">
+                <div class="lugar_maisAcessados" style="left: 22px; top: 14px; position: absolute; font-size: 64px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word">5</div>
+                <div class="titulo_maisAcessados" style="width: 217px; position: absolute; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word">Chitãozinho e Xororó</div>
+                <div class="quantidade_maisAcessados" style="position: absolute; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word">Quantidade de visualizações</div>
+            </div>
+        </div>
+        <div class="low" style="width: 1280px; height: 53px; top: 1301px; position: absolute">
+            <div style="width: 1280px; height: 53px; left: 0px; top: 0px; position: absolute; background: black"></div>
+            <div style="width: 967px; height: 24px; left: 250px; top: 15px; position: absolute">
+                <a href="" style="left: 0px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">A</a>
+                <a href="" style="left: 39px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">B</a>
+                <a href="" style="left: 77px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">C</a>
+                <a href="" style="left: 116px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">D</a>
+                <a href="" style="left: 155px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">E</a>
+                <a href="" style="left: 192px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">F</a>
+                <a href="" style="left: 228px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">G</a>
+                <a href="" style="left: 267px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">H</a>
+                <a href="" style="left: 306px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">I</a>
+                <a href="" style="left: 336px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">J</a>
+                <a href="" style="left: 372px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">K</a>
+                <a href="" style="left: 410px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">L</a>
+                <a href="" style="left: 446px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">M</a>
+                <a href="" style="left: 488px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">N</a>
+                <a href="" style="left: 527px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">O</a>
+                <a href="" style="left: 567px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">P</a>
+                <a href="" style="left: 604px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Q</a>
+                <a href="" style="left: 644px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">R</a>
+                <a href="" style="left: 681px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">S</a>
+                <a href="" style="left: 718px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">T</a>
+                <a href="" style="left: 756px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">U</a>
+                <a href="" style="left: 795px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">V</a>
+                <a href="" style="left: 834px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">W</a>
+                <a href="" style="left: 878px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">X</a>
+                <a href="" style="left: 916px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Y</a>
+                <a href="" style="left: 954px; top: 0px; position: absolute; text-decoration: none; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Z</a>
+            </div>
+            <div style="left: 63px; top: 15px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Todos Artistas</div>
+        </div>
+        <div class="low" style="width: 1280.03px; height: 238.46px; top: 1353.54px; position: absolute">
+            <div style="width: 1280px; height: 238px; left: 0.02px; top: 0.46px; position: absolute; background: black"></div>
+            
+            <div style="left: 109.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Músicas</div>
+            <a href="" style="left: 110.02px; top: 78.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Top músicas e artistas</a>
+            <a href="" style="left: 110.02px; top: 105.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Novidades</a>
+            <a href="" style="left: 110.02px; top: 132.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Vídeos</a>
+            
+            <div style="left: 324.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Aprenda</div>
+            <a href="" style="left: 324.02px; top: 78.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Como tocar violão</a>
+            <a href="" style="left: 324.02px; top: 105.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Afinador</a>
+            <a href="" style="left: 324.02px; top: 132.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Dicionário de acordes</a>
+            
+            <div style="left: 542.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Participe</div>
+            <a href="" style="left: 543.02px; top: 78.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Crie sua conta grátis</a>
+            <a href="" style="left: 543.02px; top: 105.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Envie cifras</a>
+            <a href="" style="left: 543.02px; top: 132.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Peça cifras</a>
+            
+            <div style="left: 758.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Assine</div>
+            <a href="" style="left: 759.02px; top: 78.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Cifra Club Pro</a>
+            <a href="" style="left: 759.02px; top: 105.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Cifra Club Academy</a>
+            <a href="" style="left: 759.02px; top: 132.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">YouTube Menbros</a>
+            <a href="" style="left: 759.02px; top: 159.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Seguro de Instrumentos</a>
+            
+            <div style="left: 975.02px; top: 38.46px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Sobre o site</div>
+            <a href="" style="left: 976.02px; top: 78.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Aviso Legal</a>
+            <a href="" style="left: 976.02px; top: 105.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Política de Privacidade</a>
+            <a href="" style="left: 976.02px; top: 132.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Contato</a>
+            <a href="" style="left: 976.02px; top: 159.46px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Anuncie no Cifra Club</a>
+            <div href="" style="width: 1278px; height: 0px; left: 0px; top: 0px; position: absolute; border: 1px #B9B7B7 solid"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
