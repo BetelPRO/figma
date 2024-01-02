@@ -5,9 +5,11 @@ header {
     background-color: white;
     margin-top: 4px;
     top: 0;
-    width: 100vw;
+    width: 98vw;
     height: 70px;
     position: fixed;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 5;
 }
 
